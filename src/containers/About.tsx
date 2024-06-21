@@ -19,26 +19,35 @@ const About = () => {
       <main className="flex gap-16 items-center lg:items-start flex-col lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Ketan Raj, I create Unconventional yet functional &
-            VISUALLY PLEASING INTERFACES FOR THE MOBILE AND WEB. an artist as
-            well as crazy full stack web developer who wants to explore every
-            tech stack.
+            Hello! My name is Ketan Raj and I enjoy creating innovative
+            solutions that enhance the digital world. I began building custom
+            projects and participating in hackathons, which taught me a lot
+            about full-stack development.
           </p>
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at a
-            start-up -{' '}
+            Fast-forward to today, I’ve had the privilege of working as a Web
+            Developer Intern at{' '}
             <Link
-              href="https://about.airmenus.in"
-              target="_blank"
+              href="https://www.linkedin.com/company/bharat-intern/posts/?feedView=all/"
+              target={'_blank'}
               className="text-accent"
             >
-              AirMenus
+              Bharat Intern
             </Link>
-            .
+            , where I significantly improved website functionality and user
+            experience. I am currently a{' '}
+            <Link className="text-accent">Co-founder </Link>
+            of Shakuntla Traders, managing{' '}
+            <Link href=" "  className="text-accent">
+              1,000
+            </Link>{' '}
+            outlets and driving a 100% increase in sales.
           </p>
           <p>
-            My goal is to become a blockchain developer and settle for a good
-            remote job.
+            My main focus these days is developing accessible, user-friendly
+            products and digital experiences. I also actively contribute to the
+            Compiler Club, educating over 300 students in data structures,
+            algorithms, and web development.
           </p>
 
           {list && (
