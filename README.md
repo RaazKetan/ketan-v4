@@ -10,7 +10,7 @@ Welcome to my portfolio repository! This project showcases my work as a Fullstac
 
 ### Previous Versions
 
-Check out the [previous versions of my portfolio](https://ketan-v3.vercel.app/).
+Check out the [v3](https://ketanraj.vercel.app/), [v2](https://ketan-raj-2-0.vercel.app/), [v1](https://raazketan.vercel.app/).
 
 ### Acknowledgments
 
@@ -41,9 +41,5 @@ Special thanks to:
 ### Usage
 
 Navigate to `http://localhost:3000` to view the portfolio locally.
-
-### License
-
-This project is licensed under the MIT License.
 
 Feel free to explore and reach out if you have any questions or collaboration ideas!
