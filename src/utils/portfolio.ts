@@ -36,7 +36,7 @@ export const seoData = {
   description:
     'Ketan  is a full-stack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
   author: author.name,
-  image: '/me.png',
+  image: 'https://github.com/RaazKetan/ketan-v4/raw/main/public/me.png',
   url: '',
   keywords: [
     'Ketan',
