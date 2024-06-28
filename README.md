@@ -2,6 +2,8 @@
 
 Welcome to my portfolio repository! This project showcases my work as a Fullstack Web Developer, including my skills in ReactJS, NextJS, and AWS cloud development.
 
+![Portfolio Screenshot](/me.png)
+
 ### Features
 
 - **Visually Appealing Interface**: Designed to be user-friendly and aesthetically pleasing.
