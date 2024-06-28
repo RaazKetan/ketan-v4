@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "ketan raj",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

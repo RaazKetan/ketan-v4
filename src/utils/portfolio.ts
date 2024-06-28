@@ -79,7 +79,7 @@ export const heroSection: HeroSectionType = {
   title: 'Ketan.',
   tagline: 'I create visually appealing interfaces on the web',
   description:
-    "I'm a passionate Fullstack Web Developer having an experience of creating web applications using ReactJS & NextJS. ",
+    "I'm a passionate Fullstack Web Developer having an experience of creating web applications using ReactJS & NextJS. Utilizing AWS services  to build robust, serverless applications ",
   specialText: 'Co-Founder @Shakuntla Traders - Gaya',
 
   cta: {
@@ -298,7 +298,7 @@ export const projectsSection: ProjectsSectionType = {
       name: 'Portfolio 3.0',
       url: 'https://ketanraj.vercel.app/',
       repo: 'https://github.com/RaazKetan/Portfolio_3.0',
-      img: '/Portfolio3.0.png',
+      img: '/portfolio3.0.png',
       year: 2022,
       tags: ['HTML', 'CSS', 'JavaScript'],
     },
