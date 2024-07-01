@@ -184,7 +184,7 @@ export const experienceSection: ExperienceSectionType = {
     },
     {
       company: 'Comfort Build',
-      companyUrl: 'https://comfort-build.odoo.com/_odoo/comfort-build',
+      companyUrl: 'https://comfort-build.odoo.com/',
       role: 'UI/UX Developer',
       started: 'Feb 2024',
       upto: 'May 2024',
