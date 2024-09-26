@@ -2,7 +2,7 @@ import {
   AboutSectionType,
   ContactSectionType,
   ExperienceSectionType,
-  FooterSectionType,
+  // FooterSectionType,
   HeroSectionType,
   NavbarSectionType,
   ProjectsSectionType,
@@ -79,7 +79,7 @@ export const heroSection: HeroSectionType = {
   tagline: 'I create visually appealing interfaces on the web',
   description:
     "I'm a passionate Fullstack Web Developer having an experience of creating web applications using ReactJS & NextJS. Utilizing AWS services  to build robust, serverless applications ",
-  specialText: 'Co-Founder @Shakuntla Traders - Gaya',
+  specialText: 'Integration Engineer @ClearTax',
 
   cta: {
     title: 'see my resume',
@@ -100,7 +100,8 @@ export const aboutSection: AboutSectionType = {
       'React.js',
       'JavaScript (ES6+)',
       'Node.js',
-      'Database',
+      'Python',
+      'SQL',
     ],
   },
   img: '/ketan.png',
@@ -170,6 +171,23 @@ export const experienceSection: ExperienceSectionType = {
   title: 'My experience and volunteering',
   experiences: [
     {
+      company: 'ClearTax',
+      companyUrl: 'https://cleartax.in/',
+      role: 'Integration Engineer',
+      started: 'July 2024',
+      upto: 'Present',
+      tasks: [
+        'Developing and maintaining integrations with third-party services, ensuring seamless data flow and system compatibility.',
+        // 'Conducting code reviews, providing feedback, and mentoring junior team members to ensure code quality and best practices.',
+        'Identifying and troubleshooting technical issues, ensuring timely resolution and minimal impact on system performance.',
+        'Participating in the full software development lifecycle, from requirements gathering and design to implementation, testing, and deployment.',
+        // 'Collaborated with the software development team on the front end using React.js, JavaScript, and Tailwind CSS to design and implement a chatbot, enhancing user interaction and automating key processes, significantly improving customer response times.',
+        'Optimized the codebase under the guidance of a senior programmer using Python, SQL, and JavaScript, streamlining integration platforms and reducing onboarding time for new clients by 15%.',
+        'Designed a robust solution to extract unique records by leveraging primary keys across 40+ tables, ensuring data integrity and eliminating redundancy.',
+        'Utilizing SAP to extract data and generate reports for analysis, enabling data-driven decision-making and process optimization.',
+      ],
+    },
+    {
       company: 'Shakuntla Traders',
       companyUrl: '',
       role: 'Co-Founder',
@@ -185,10 +203,11 @@ export const experienceSection: ExperienceSectionType = {
     {
       company: 'Comfort Build',
       companyUrl: 'https://comfort-build.odoo.com/',
-      role: 'UI/UX Developer',
+      role: 'Software Developer',
       started: 'Feb 2024',
       upto: 'May 2024',
       tasks: [
+        'Conceptualized the entire app in Figma, designing 30+ screens and user flows to ensure a seamless and visually appealing user experience.',
         'Improved user satisfaction by 40% through the implementation of a clean and intuitive interface. This was achieved by conducting extensive user research and usability testing to understand user needs and preferences.',
         'Increased user engagement by 50% by incorporating interactive elements such as dynamic menus, engaging animations, and responsive feedback mechanisms. These elements made the app more engaging and enjoyable to use.',
         'Achieved a 25% boost in app usage by making user-centric design improvements based on continuous feedback and usability testing. This included enhancing the visual appeal of the app and making it more accessible and easier to navigate',
@@ -277,7 +296,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Readme Editor',
-      url: 'https://readme-editor-isr265x91-ketan-rajs-projects.vercel.app/',
+      url: 'https://readme-editor-sand.vercel.app/',
       repo: 'https://github.com/RaazKetan/ReadmeEditor',
       img: '/Readme1.png',
       year: 2024,
@@ -295,8 +314,8 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Portfolio 3.0',
-      url: 'https://ketanraj.vercel.app/',
-      repo: 'https://github.com/RaazKetan/Portfolio_3.0',
+      url: 'https://ketan-raj-2-0.vercel.app/',
+      repo: 'https://github.com/RaazKetan/KetanRaj_2.0',
       img: '/portfolio3.0.png',
       year: 2022,
       tags: ['HTML', 'CSS', 'JavaScript'],
@@ -368,7 +387,7 @@ export const socialSection: SocialSectionType = {
 
 // Footer Section
 
-export const footerSection: FooterSectionType = {
-  title: 'Design Inspiration @Brittany Chiang',
-  link: 'https://github.com/bchiang7',
-};
+// export const footerSection: FooterSectionType = {
+//   title: 'Design Inspiration @Brittany Chiang',
+//   link: 'https://github.com/bchiang7',
+// };
