@@ -32,9 +32,9 @@ export const author = {
 };
 
 export const seoData = {
-  title: 'Ketan Raj | Cloud Practitioner | Full Stack Developer',
+  title: 'Ketan Raj | Software Application Developer',
   description:
-    'Ketan  is a full-stack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Ketan  is a software developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
   author: author.name,
   image: 'https://github.com/RaazKetan/ketan-v4/raw/main/public/me.png',
   url: '',
@@ -78,8 +78,8 @@ export const heroSection: HeroSectionType = {
   title: 'Ketan.',
   tagline: 'I create visually appealing interfaces on the web',
   description:
-    "I'm a passionate Fullstack Web Developer having an experience of creating web applications using ReactJS & NextJS. Utilizing AWS services  to build robust, serverless applications ",
-  specialText: 'Integration Engineer @ClearTax',
+    "I'm a passionate Software Developer having an experience of creating web applications using ReactJS & NextJS. Utilizing AWS services  to build robust, serverless applications ",
+  specialText: 'Software Application Developer @Google',
 
   cta: {
     title: 'see my resume',
@@ -98,6 +98,13 @@ export const aboutSection: AboutSectionType = {
       'AWS',
       'Next.js',
       'React.js',
+      'Jest',
+      'Apollo GraphQL',
+      'Tailwind CSS',
+      'HTML5',
+      'CSS3',
+      'Sass',
+      'Redux',
       'JavaScript (ES6+)',
       'Node.js',
       'Python',
@@ -114,7 +121,7 @@ export const skillsSection: SkillsSectionType = {
   skills: [
     {
       id: getId(),
-      title: 'full stack development',
+      title: 'Software Development',
       // animation lottie file: https://lottiefiles.com/
       lottie: {
         light: '/lotties/frontend.json',
@@ -171,16 +178,24 @@ export const experienceSection: ExperienceSectionType = {
   title: 'My experience and volunteering',
   experiences: [
     {
+      company: 'Google',
+      companyUrl: 'https://www.google.com/',
+      role: 'Software Application Developer',
+      started: 'April 2025',
+      upto: 'Present',
+      tasks: [],
+    },
+    {
       company: 'Clear',
       companyUrl: 'https://cleartax.in/',
-      role: 'Integration Engineer',
+      role: 'Software Developer Intern',
       started: 'July 2024',
-      upto: 'Present',
+      upto: 'March 2025',
       tasks: [
-        'Developed an autonomous Python-OpenAI framework for data extraction and field mapping, reducing manual specification time by 95% through automated validation, resulting in 90% decrease in specification-related queries and eliminating manual rework for integration team.',
-        'Strengthened Unity data model by architecting advanced SQL validation queries and Python automation scripts, implementing predictive error detection with real-time validation that prevented 98% of ingestion failures while reducing onboarding time by 95%.',
-        'Optimized data ingestion workflows using SQL queries and Python scripts, implementing DBT transformations with Retool monitoring dashboards, reducing integration failures by 99% and cutting issue resolution time from hours to minute.',
-        'Led comprehensive testing of Clear GL Stream product by processing 18M+ rows across 40+ tables, uncovering critical performance bottlenecks in handling large-scale enterprise data, collaborating with development team to implement optimized indexing and batch processing solutions ensuring seamless data handling',
+        'Crafted the Tax Savings Deductions section to address user challenges with inefficient financial data input and tax declaration errors. Designed an interactive UI using React.js and Tailwind CSS with real-time validation and error handling, resulting in a 30% increase in user engagement and a 40% reduction in incorrect form submissions.',
+        'Built the Loans section to simplify deduction claims for education, home, and electric vehicle loans. Implemented dynamic input fields and real-time calculations to ensure accuracy and user-friendliness, significantly minimizing user errors.',
+        'Developed the Other Deductions section, streamlining the process for claiming deductions on patents, inventions, book royalties, and house rent. Delivered an intuitive UI with seamless backend integration, contributing to a 25% increase in successful submissions.',
+        'Revamped the summary feature in the Loans section to boost performance and user experience. Added dynamic rendering for specific loan types (e.g., 80E, 80EE), along with real-time updates, edit/remove functionality, and a cleaner “Add More Details” interface—cutting load times by 50% and improving interaction speed by 40%.',
       ],
     },
     {
@@ -338,7 +353,7 @@ export const contactSection: ContactSectionType = {
   title: 'get in touch',
   subtitle: "what's next",
   paragraphs: [
-    "I'm currently looking for an Internship or any new opportunities.",
+    "I'm currently looking for an Freelance work or any new opportunities.",
     'Whether you have a project to discuss or just want to say hi, my inbox is open for all!',
   ],
   link: `mailto:${author.email}`,
